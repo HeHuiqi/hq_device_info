@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - hq_device_info (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - hq_device_info (from `.symlinks/plugins/hq_device_info/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  hq_device_info:
+    :path: ".symlinks/plugins/hq_device_info/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  hq_device_info: 9be7471669aba8a652e716c694920392135754b3
+
+PODFILE CHECKSUM: 663715e941f9adb426e33bf9376914006f9ea95b
+
+COCOAPODS: 1.11.3
