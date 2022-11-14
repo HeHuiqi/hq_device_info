@@ -25,6 +25,10 @@
         
         result([HqDeviceInfo deviceInfo]);
         
+        
+        //调用Flutter方法
+        [self.channel invokeMethod:@"showAlert" arguments:nil];
+        
         /*
         UIAlertController *alerc = [UIAlertController alertControllerWithTitle:@"NativeAlert" message:@"" preferredStyle:(UIAlertControllerStyleAlert)];
         UIAlertAction *ac = [UIAlertAction actionWithTitle:@"Ok" style:(UIAlertActionStyleDefault) handler:^(UIAlertAction * _Nonnull action) {

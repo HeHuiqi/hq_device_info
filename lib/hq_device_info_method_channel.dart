@@ -27,6 +27,7 @@ class MethodChannelHqDeviceInfo extends HqDeviceInfoPlatform {
     final info = await methodChannel.invokeMapMethod<String,dynamic>('deviceInfo');
     return info;
   }
+  //设置回调监听原生调用flutter
   @override
   void setMethodCallHandler(Future Function(MethodCall call)? handler) {
     methodChannel.setMethodCallHandler(handler);

@@ -29,6 +29,8 @@ public class HqDeviceInfoPlugin implements FlutterPlugin, MethodCallHandler {
     }
     else  if (call.method.equals("deviceInfo")) {
       result.success(HqDeviceInfo.deviceInfo());
+      //调用Flutter方法
+      channel.invokeMethod("showAlert",null);
     }
     else {
       result.notImplemented();

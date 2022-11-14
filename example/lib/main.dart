@@ -88,7 +88,3 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
-
-/*
-flutter create --template=plugin --platforms=android -a java .
- */

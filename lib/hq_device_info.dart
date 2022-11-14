@@ -9,6 +9,7 @@ class HqDeviceInfo {
   Future<Map<String,dynamic>?> deviceInfo() {
     return HqDeviceInfoPlatform.instance.deviceInfo();
   }
+  //设置回调监听原生调用flutter
   void setMethodCallHandler(Future Function(MethodCall call)? handler) {
         return HqDeviceInfoPlatform.instance.setMethodCallHandler(handler);
   }
